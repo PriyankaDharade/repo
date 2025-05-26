@@ -1,9 +1,9 @@
 pipeline {
     agent any
     stages {
-        stage('Test CMD') {
+        stage('Test') {
             steps {
-                bat 'echo Hello from Windows CMD'
+                echo 'Hello, Jenkins Pipeline!'
             }
         }
     }
